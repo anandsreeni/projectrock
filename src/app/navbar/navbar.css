@@ -1,0 +1,35 @@
+
+.classy-navbar {
+  background-color: #000 !important;
+  padding: 1rem 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  z-index: 1000;
+}
+
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #ffe600 !important;
+}
+
+
+.bottom-right-links {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 0.3rem;
+}
+
+
+.bottom-right-links .nav-link {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  transition: color 0.3s;
+  color: #ffe600 !important;
+}
+
+.bottom-right-links .nav-link:hover {
+  color: white !important;
+}

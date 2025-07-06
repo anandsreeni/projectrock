@@ -1,0 +1,100 @@
+:root {
+  --bg: #000;
+  --accent: #FFD700;
+  --bright-bg: #fffbe6;
+  --text-dark: #000;
+  --text-light: #fff;
+}
+
+/* Zigzag Section */
+.zigzag {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.zigzag-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.zigzag-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.zigzag-image {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.zigzag-image img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid var(--accent);
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.zigzag-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Bright Text Box */
+.zigzag-text {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 2rem;
+  background: var(--bright-bg);
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2);
+  color: var(--text-dark);
+  transition: box-shadow 0.3s ease;
+}
+
+.zigzag-text:hover {
+  box-shadow: 0 12px 30px rgba(255, 215, 0, 0.4);
+}
+
+.zigzag-text h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.zigzag-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .zigzag-row {
+    flex-direction: column;
+  }
+
+  .zigzag-row.reverse {
+    flex-direction: column;
+  }
+
+  .zigzag-text {
+    padding: 1.5rem;
+  }
+
+  .zigzag-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .zigzag-text p {
+    font-size: 0.95rem;
+  }
+}

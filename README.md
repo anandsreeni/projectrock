@@ -1,48 +1,59 @@
-🪨 Project Rock Website
-A stylish and responsive front-end website built to showcase Project Rock’s premium apparel and products. This project highlights Project Rock’s brand, product catalog, and provides users with a clean way to get in touch.
+# Projectrock
 
-📌 Pages Overview
-🏠 Home Page
-Full-width brand imagery and banners
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
-Concise introduction about Project Rock and its mission
+## Development server
 
-👕 Apparels Page
-Interactive carousel for featured products or promotions
+To start a local development server, run:
 
-Product cards with images, names, and short descriptions
+```bash
+ng serve
+```
 
-🛒 Products Page
-Displays a collection of products fetched from FakeStoreAPI
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-Includes images, titles, prices, and brief details
+## Code scaffolding
 
-📞 Contact Us Page
-Simplified layout with fields for name, email, and message
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-Easy for users to reach out with inquiries
+```bash
+ng generate component component-name
+```
 
-✨ Features
-✅ Clean and fully responsive design
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-✅ Interactive carousel component
+```bash
+ng generate --help
+```
 
-✅ Consistent and modern product cards
+## Building
 
-✅ Integration with FakeStoreAPI for realistic product data
+To build the project run:
 
-✅ User-friendly contact form
+```bash
+ng build
+```
 
-✅ Scalable layout for future additions
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-🛠️ Tech Stack
-HTML5 – Page structure
+## Running unit tests
 
-CSS3 – Styling and layout
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-JavaScript – Interactivity
+```bash
+ng test
+```
 
-Framework / Library – (React / Angular / Vue – specify your choice)
+## Running end-to-end tests
 
-FakeStoreAPI – Mock product data
+For end-to-end (e2e) testing, run:
 
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
